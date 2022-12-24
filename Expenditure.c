@@ -1,13 +1,14 @@
 #include<stdio.h>
-int main()
+int  main()
 {
-    int a,b;
+    int a,b,c;
     scanf("%d%d",&a,&b);
-    if(a>(30*b))
+    c=b*30;
+    if (c<=a)
     {
         printf("YES");
     }
-    else
+    else if (c>a)
     {
         printf("NO");
     }
