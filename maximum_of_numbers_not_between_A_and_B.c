@@ -23,5 +23,3 @@ int main()
     else
     printf("%d",m);
 }
-
-
